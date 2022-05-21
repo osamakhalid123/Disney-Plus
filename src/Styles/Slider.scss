@@ -1,0 +1,47 @@
+.slide{
+    margin: 0 auto;
+    width: 93vw;
+    height: 100%;
+margin-bottom: 4rem; 
+justify-content: center;
+align-items: center;
+
+ul li button {
+    &:before{
+        font-size: 10px;
+        color: rgb(150, 158, 171);
+    }
+        
+}
+li.slick-active button:before {
+    color: white;
+}
+.slick-list {
+    overflow: visible;
+}
+.slick-next {
+    right: 0px;
+}
+.slick-prev {
+    left: 0px;
+}
+button {
+    z-index: 1;
+}
+
+    div{
+        img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            &:hover{
+                border: 3px solid white ;
+            }
+            &::after{
+                content: "";
+
+            }
+        }
+    }
+
+}
