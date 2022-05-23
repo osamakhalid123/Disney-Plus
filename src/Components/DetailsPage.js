@@ -1,4 +1,3 @@
-
 import Data from "../jsnon/Data.json"
 import React from 'react'
 import styled from 'styled-components';
@@ -56,9 +55,8 @@ const TitleImage=styled.img`
     opacity:1 ;
     margin:20px ;
     @media only screen and (max-width: 785px) {
-     max-width:50vh ;
+    max-width:50vh ;
     max-height: 10rem;
-         
       }
 `
 const Wraper=styled.div`
